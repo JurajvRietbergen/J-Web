@@ -20,4 +20,9 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.layout {
+  overflow:auto;
+}
+
 </style>

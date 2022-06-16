@@ -4,18 +4,6 @@ export const state = () => ({
     resume: false
 })
 
-export const getter = {
-    getHome(state) {
-        return state.home
-    },
-    getAbout(state) {
-        return state.about
-    },
-    getResume(state) {
-        return state.resume
-    }
-}
-
 export const mutations = {
     switchTo(state, form) {
         if(form.current === 'home') {

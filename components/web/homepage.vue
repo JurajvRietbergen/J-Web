@@ -6,7 +6,7 @@
           <div class="top">
             <h1>Juraj van Rietbergen</h1>
             <b-img
-              src="~/assets/images/portfolio.png"
+              src="~/static/portfolio_resized.webp"
               rounded="circle"
               height="300%"
               width="300%"
@@ -90,9 +90,6 @@
 
 <script>
 export default {
-  data() {
-    return {};
-  },
   methods: {
     discordModal() {
       this.$bvModal.msgBoxOk('Shoot me a message at Juraj#2370');
@@ -112,10 +109,6 @@ export default {
 .title-enter-active {
   transition: opacity 3s ease;
 }
-
-/* .title-leave-active {
-
-} */
 
 .title-enter,
 .title-leave-to {

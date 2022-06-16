@@ -12,9 +12,12 @@ export default {
 }
 </script>
 
-<style scoped>
-.layout {
-    background: rgb(89,103,136);
-    background: linear-gradient(0deg, rgba(89,103,136,1) 20%, rgba(27,31,41,1) 100%);
+<style>
+body {
+  background: linear-gradient(0deg, rgba(89,103,136,1) 20%, rgba(27,31,41,1) 100%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 </style>
